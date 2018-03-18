@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.All" Version="2.1.0-preview1-final" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="2.1.0-preview1-final" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\lib\JalaliJSCalendar-1.4\calendar-setup.js" />
+    <None Include="wwwroot\lib\JalaliJSCalendar-1.4\calendar.js" />
+    <None Include="wwwroot\lib\JalaliJSCalendar-1.4\jalali.js" />
+    <None Include="wwwroot\lib\JalaliJSCalendar-1.4\lang\calendar-fa.js" />
+    <None Include="wwwroot\lib\JalaliJSCalendar-1.4\lang\cn_utf8.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\KendoGrid\KendoGrid.csproj" />
+  </ItemGroup>
+
+</Project>
