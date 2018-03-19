@@ -2,8 +2,6 @@
 
 ASP.NET Core 2.1
 
-نحوه استفاده:
-
 ```csharp
 [HttpPost]
 public async Task<JsonResult> GetProducts([FromBody]Request request)
