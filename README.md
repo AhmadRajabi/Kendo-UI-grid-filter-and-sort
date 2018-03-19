@@ -1,6 +1,6 @@
 # فیلتر و مرتب سازی کندو گرید در سمت سرور همراه با فیلتر تاریخ شمسی
 
-ASP.NET Core 2.1
+Full example in source code(ASP.NET Core 2.1)
 
 ```csharp
 [HttpPost]
